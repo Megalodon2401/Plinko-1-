@@ -16,7 +16,7 @@ class Division {
     display() {
        var p = this.body.position;
        rectMode(CENTER);
-       fill("green");
+       fill("lightgreen");
        rect(p.x, p.y, this.w, this.h);
     }
 };
